@@ -10,13 +10,13 @@ public class User {
     private String password;
     
     public User(String name, String lastName, String id, String role) {
-        this.name = name;
-        this.lastName = lastName;
-        this.id = id;
-        this.role = role;
-        this.username = username;
-        this.password = password;
-    }
+    this.name = name;
+    this.lastName = lastName;
+    this.id = id;
+    this.role = role;
+    this.username = ""; // Valor predeterminado para username
+    this.password = ""; // Valor predeterminado para password
+}
     
     // Getters y Setters
 
